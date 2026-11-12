@@ -1,0 +1,17 @@
+# Licensed material never enters git (project rule: Licensing)
+*.pdf
+*.PDF
+corpus/**
+!corpus/README.md
+index/
+*.sqlite
+*.faiss
+*.parquet
+page_images/
+extracted_text/
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.env
